@@ -1,0 +1,25 @@
+Here are some command line codes to use the features of this Raspberry Pi:
+
+
+Capture Picture:
+raspistill -o {file name}.jpg
+Example:
+raspistill -o tilapiacam1.jpg
+
+
+Capture Video:
+raspivid -o {file name).h264 -t {time in ms}
+Example:
+raspivid -o tilapiacam2.h264 -t 10000
+
+
+View Pictures:
+Navigate to where the picture has been saved (for example: /home/pi)
+Double click on the image
+
+Replay video:
+omxplayer /{file path}/{file name}
+Example:
+omxplayer /home/pi/video.h264
+
+
